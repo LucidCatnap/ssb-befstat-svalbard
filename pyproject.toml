@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ssb-befstat-svalbard"
+version = "0.1.0"
+description = "Utkast til \"Jupyter notebook\"-basert utgave av \"Befolkningen på Svalbard\"."
+authors = ["Fredrick André Østlund Blikeng, <fbl@ssb.no>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ssb_befstat_svalbard"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+papermill = "^2.4.0"
+geopandas = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
